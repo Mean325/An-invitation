@@ -1,18 +1,21 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/member/edit/edit",
+    "pages/member/detail/detail",
+    "pages/editor/editor",
+    "pages/origin/index/index",
+    "pages/origin/userConsole/userConsole",
+    "pages/origin/storageConsole/storageConsole",
+    "pages/origin/databaseGuide/databaseGuide",
+    "pages/origin/addFunction/addFunction",
+    "pages/origin/deployFunctions/deployFunctions",
+    "pages/origin/chooseLib/chooseLib",
+    "pages/origin/openapi/openapi",
+    "pages/origin/openapi/serverapi/serverapi",
+    "pages/origin/openapi/callback/callback",
+    "pages/origin/openapi/cloudid/cloudid",
+    "pages/origin/im/im",
+    "pages/origin/im/room/room"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -21,6 +24,11 @@
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
   },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "darkmode": false,
   "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
   "style": "v2"
 }

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "编辑版本介绍",
+  "usingComponents": {
+    "weui-cells": "weui-miniprogram/cells/cells",
+    "weui-cell": "weui-miniprogram/cell/cell"
+  },
+  "enablePullDownRefresh": false,
+  "disableScroll": true
+}

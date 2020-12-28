@@ -1,0 +1,24 @@
+<!--miniprogram/pages/member/edit/edit.wxml-->
+<view class="container">
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+      <text>上传图片</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imagePath}}">
+      <image bindtap="previewImg" src="{{imagePath}}" data-src="{{ imagePath }}" mode="aspectFit" class="uploader-image"></image>
+    </view>
+  </view>
+
+  <view class="list">
+    <view class="list-item">
+      <text class="request-text">文件 ID：{{fileID}}</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">云文件路径：{{cloudPath}}</text>
+    </view>
+    <view class="list-item">
+      <image class="image1" src="{{imagePath}}" mode="aspectFit"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "成员详情",
+  "usingComponents": {
+    "weui-cells": "weui-miniprogram/cells/cells",
+    "weui-cell": "weui-miniprogram/cell/cell"
+  },
+  "enablePullDownRefresh": false
+}
