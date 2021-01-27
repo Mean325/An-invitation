@@ -6,10 +6,19 @@
   box-sizing: border-box;
 } 
 
+view {
+  width: 100%;
+}
+
 button {
   background: initial;
 }
 
 button:focus{
   outline: 0;
+}
+
+
+.slight-radius {
+  border-radius: 10rpx;
 }

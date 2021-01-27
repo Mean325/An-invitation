@@ -1,0 +1,16 @@
+<view class="frosted page">
+  <view class="container">
+    <view class="user">
+      <view>
+        <view>Monday</view>
+        <view>Hello world</view>
+      </view>
+      <image src="./../../images/1611748081737.jpg" style="width: 80px; height: 80px;"></image>
+    </view>
+    <view class="user-info">
+      <view class="info frosted slight-radius"></view>
+      <view class="info frosted slight-radius"></view>
+      <view class="info frosted slight-radius"></view>
+    </view>
+  </view>
+</view>
